@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Website Design</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Food<span>.</span></a>
+        <ul class="navigation">
+            <li><a href="#banner">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#expert">Expert</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+    <section id="banner" class="banner">
+        <div class="content">
+            <h2>Always Choose Good</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum quisquam mollitia quia eaque veniam numquam, sed eos harum neque esse illum, amet, nulla aperiam obcaecati vel dolorem similique at. Maiores.</p>
+            <a href="#" class="btn">Our Menu</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="showcase">
+            <div class="textbox">
+                <h2 class="titletext"><span>A</span>bout Us</h2>
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate illum ducimus quasi, repudiandae dolorem tempora, aspernatur provident ad quidem in, impedit tenetur sequi? Ullam distinctio quibusdam quis fugit veritatis error natus accusamus dolor quidem. Accusantium ducimus quam obcaecati animi, dicta aliquam neque ab odio alias vero? Praesentium consequatur voluptates totam aliquid, nisi suscipit? Explicabo omnis veritatis velit! Quaerat error earum eaque eligendi, minima corporis fugiat quidem, obcaecati recusandae similique adipisci, optio aut quas. <br> <br> Dolorem autem numquam vel laborum? Quam molestiae dicta eos facere, accusantium placeat quae quibusdam commodi recusandae totam nostrum, perspiciatis in labore iure sit magni tempora iusto iste!</p>
+            </div>
+            <div class="imgbox">
+                <img src="images/img1.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+    </script>
+</body>
+</html>
